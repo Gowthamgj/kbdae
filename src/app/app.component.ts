@@ -16,8 +16,6 @@ export class AppComponent {
   }
   calculateTime (){
     var countDownDate = new Date("Oct 03, 2019 00:00:00").getTime();
-    // Update the count down every 1 second
-    // console.log(countDownDate)
     var self = this
     var x = setInterval(function() {
     // Get today's date and time
